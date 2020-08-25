@@ -15,7 +15,7 @@ jobs:
     steps:
         - name: Get the sources
           uses: actions/checkout@v1
-        - name: Create a releas draft for a version tag
+        - name: Create a releas draft for a version tagx
           id: create-release-draft
           uses: ./
         - name: Print the URL of the release draft
